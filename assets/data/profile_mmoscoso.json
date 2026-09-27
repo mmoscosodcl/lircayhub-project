@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "appTitle": "Portfolio | Manuel Moscoso",
+    "themeColor": "#135bec"
+  },
+  "hero": {
+    "title": "Conectando sistemas, optimizando negocios",
+    "subtitle": "Lead Systems Integration Engineer & IT Solutions Architect especializado en transformación digital y arquitecturas escalables.",
+    "actionButtonText": "Ver mi Impacto"
+  },
+  "personal": {
+    "name": "Manuel Alejandro Moscoso Domínguez",
+    "role": "Lead Systems Integration Engineer | IT Solutions Architect",
+    "location": "Talca, Chile (Remote Friendly)",
+    "avatarUrl": "https://i.pravatar.cc/300?img=12",
+    "bio": "Estratega de TI e Ingeniero en Bioinformática con Máster en Software Libre. Más de 10 años de trayectoria liderando la transformación digital y la interoperabilidad de sistemas. Especialista en el diseño de arquitecturas escalables y automatización de procesos críticos utilizando Python, Node.js y entornos cloud.",
+    "resumeLink": "#"
+  },
+  "experience": [
+    {
+      "id": "1",
+      "title": "Profesional de Digitalización de Procesos",
+      "company": "Universidad de Talca",
+      "period": "Sep 2024 - Presente",
+      "description": "Liderando la pasarela de backend en Node.js para APIs externas y la hoja de ruta de digitalización institucional.",
+      "type": "work"
+    },
+    {
+      "id": "2",
+      "title": "Jefe de Proyectos TI",
+      "company": "Mobiquos SpA",
+      "period": "2020 - 2024",
+      "description": "Automatización con Python (ahorro 120+ horas anuales) y diseño de arquitectura API de alta disponibilidad para retail.",
+      "type": "code"
+    },
+    {
+      "id": "3",
+      "title": "Jefe de Gestión Curricular y Plataformas",
+      "company": "Universidad de Talca",
+      "period": "2017 - 2020",
+      "description": "Ejecución de plan estratégico trienal y desarrollo de la plataforma centralizada 'Expediente Curricular'.",
+      "type": "work"
+    },
+    {
+      "id": "4",
+      "title": "Docente de Ingeniería",
+      "company": "U. de Talca / U. Autónoma",
+      "period": "2012 - 2023",
+      "description": "Formación de talentos en Algoritmos, Arquitectura de Software y Programación Móvil.",
+      "type": "terminal"
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "title": "SmartWIFI (TICAL 2015)",
+      "description": "Plataforma Full-Stack para gestión de red inteligente con API REST (Symfony) y App Android.",
+      "imageUrl": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=500",
+      "link": "https://tical2015.redclara.net/images/TICAL2015/Presentaciones/MartesAM/Paralela3-Picadilly/tical_2015_proyecto-smartwifi-Manuel-Moscoso.pdf",
+      "tags": ["Symfony", "Android", "API REST"]
+    },
+    {
+      "id": "p2",
+      "title": "Expediente Curricular",
+      "description": "Herramienta de visualización de información académica centralizada para toma de decisiones basada en datos.",
+      "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500",
+      "link": "#",
+      "tags": ["Data Strategy", "SQL", "Management"]
+    },
+    {
+      "id": "p3",
+      "title": "miDeuda Backend",
+      "description": "Arquitectura de API escalable para consulta de deuda financiera con integridad total de datos.",
+      "imageUrl": "https://images.unsplash.com/photo-1554224155-1696413565d3?w=500",
+      "link": "#",
+      "tags": ["Python", "Flask", "Fintech"]
+    }
+  ],
+  "contact": {
+    "headline": "Conectemos",
+    "subHeadline": "Abierto a liderar desafíos de arquitectura e integración de sistemas complejos.",
+    "socialLinks": [
+      { "platform": "email", "url": "mailto:manuel.moscoso.d@gmail.com", "icon": "mail" },
+      { "platform": "linkedin", "url": "https://www.linkedin.com/in/manuelmoscosodominguez/", "icon": "link" }
+    ]
+  }
+}

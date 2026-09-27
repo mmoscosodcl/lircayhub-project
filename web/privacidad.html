@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Política de Privacidad | Lircay Hub Pro</title>
+  <meta name="description" content="Política de Privacidad oficial para las aplicaciones y servicios de Lircay Hub Pro.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0b0f19;
+      --bg-card: rgba(23, 31, 51, 0.7);
+      --bg-card-hover: rgba(30, 41, 67, 0.85);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-accent: rgba(19, 91, 236, 0.3);
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --accent-blue: #135bec;
+      --accent-glow: rgba(19, 91, 236, 0.15);
+      --accent-cyan: #06b6d4;
+      --radius-lg: 16px;
+      --radius-md: 12px;
+      --radius-sm: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(19, 91, 236, 0.12) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(6, 182, 212, 0.08) 0%, transparent 45%);
+      background-attachment: fixed;
+    }
+
+    /* Header Navigation */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      background: rgba(11, 15, 25, 0.8);
+      border-bottom: 1px solid var(--border-color);
+      padding: 16px 24px;
+    }
+
+    .header-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text-primary);
+      font-weight: 700;
+      font-size: 1.15rem;
+    }
+
+    .brand-logo {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.1rem;
+      color: #ffffff;
+      box-shadow: 0 4px 14px var(--accent-glow);
+    }
+
+    .btn-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-primary);
+      border: 1px solid var(--border-color);
+      padding: 8px 16px;
+      border-radius: var(--radius-sm);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .btn-back:hover {
+      background: rgba(19, 91, 236, 0.2);
+      border-color: var(--accent-blue);
+      transform: translateY(-1px);
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    /* Hero Header Banner */
+    .hero-banner {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 20px;
+      background: var(--accent-glow);
+      border: 1px solid var(--border-accent);
+      color: #60a5fa;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    .title {
+      font-size: 2.75rem;
+      font-weight: 800;
+      line-height: 1.2;
+      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 12px;
+    }
+
+    .last-updated {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* Cards Grid & Sections */
+    .policy-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 32px;
+      margin-bottom: 24px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      transition: border-color 0.2s ease;
+    }
+
+    .policy-card:hover {
+      border-color: var(--border-accent);
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+
+    .section-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: var(--radius-md);
+      background: rgba(19, 91, 236, 0.15);
+      border: 1px solid var(--border-accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      flex-shrink: 0;
+    }
+
+    .section-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    p {
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+      font-size: 1rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 16px;
+    }
+
+    li {
+      position: relative;
+      padding-left: 28px;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+    }
+
+    li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--accent-cyan);
+      font-weight: 700;
+    }
+
+    .highlight-box {
+      background: rgba(19, 91, 236, 0.08);
+      border-left: 4px solid var(--accent-blue);
+      padding: 16px 20px;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      margin: 20px 0;
+    }
+
+    .highlight-box p {
+      color: #93c5fd;
+      font-size: 0.95rem;
+    }
+
+    /* Contact Card */
+    .contact-card {
+      background: linear-gradient(135deg, rgba(19, 91, 236, 0.2), rgba(6, 182, 212, 0.1));
+      border: 1px solid var(--border-accent);
+      text-align: center;
+      padding: 40px 32px;
+    }
+
+    .contact-email {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--accent-blue);
+      color: #ffffff;
+      padding: 12px 24px;
+      border-radius: var(--radius-md);
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 16px;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 15px rgba(19, 91, 236, 0.4);
+    }
+
+    .contact-email:hover {
+      background: #2563eb;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(19, 91, 236, 0.6);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      border-top: 1px solid var(--border-color);
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .title {
+        font-size: 2rem;
+      }
+      .policy-card {
+        padding: 24px 20px;
+      }
+      .container {
+        padding: 32px 16px 60px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-container">
+      <a href="./" class="brand">
+        <div class="brand-logo">L</div>
+        <span>Lircay Hub Pro</span>
+      </a>
+      <a href="./" class="btn-back">
+        ← Volver al Inicio
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <div class="hero-banner">
+      <span class="badge">Legal & Transparencia</span>
+      <h1 class="title">Política de Privacidad</h1>
+      <p class="last-updated">Última actualización: 1 de Agosto de 2026</p>
+    </div>
+
+    <!-- Intro Card -->
+    <div class="policy-card">
+      <div class="section-header">
+        <div class="section-icon">🛡️</div>
+        <h2 class="section-title">1. Compromiso con la Privacidad</h2>
+      </div>
+      <p>
+        En <strong>Lircay Hub Pro</strong> respetamos profundamente tu privacidad y nos comprometemos firmemente a proteger la información personal que compartes con nosotros. Esta Política de Privacidad describe de manera clara y transparente cómo recopilamos, utilizamos, almacenamos y salvaguardamos tus datos cuando interactúas con nuestra plataforma web y aplicaciones asociadas.
+      </p>
+      <div class="highlight-box">
+        <p>
+          💡 <strong>Principio Fundamental:</strong> No vendemos, alquilamos ni comercializamos tu información personal a terceros bajo ninguna circunstancia.
+        </p>
+      </div>
+    </div>
+
+    <!-- Data Collection Card -->
+    <div class="policy-card">
+      <div class="section-header">
+        <div class="section-icon">📊</div>
+        <h2 class="section-title">2. Información que Recopilamos</h2>
+      </div>
+      <p>Para proporcionar un servicio de alta calidad y optimizar la experiencia de usuario, podemos recopilar los siguientes tipos de información:</p>
+      <ul>
+        <li><strong>Información Proporcionada por el Usuario:</strong> Datos introducidos voluntariamente en formularios de contacto, registro o perfil (ej. nombre, dirección de correo electrónico).</li>
+        <li><strong>Datos Técnicos y de Dispositivo:</strong> Dirección IP, tipo de navegador, sistema operativo, resolución de pantalla y métricas de rendimiento del dispositivo.</li>
+        <li><strong>Uso y Navegación:</strong> Secciones visitadas, tiempo de permanencia, preferencias de navegación y registros de interacción dentro de la aplicación.</li>
+      </ul>
+    </div>
+
+    <!-- Data Usage Card -->
+    <div class="policy-card">
+      <div class="section-header">
+        <div class="section-icon">⚙️</div>
+        <h2 class="section-title">3. Uso de la Información</h2>
+      </div>
+      <p>Utilizamos la información recopilada exclusivamente para los siguientes fines legítimos:</p>
+      <ul>
+        <li>Garantizar el correcto funcionamiento, mantenimiento y seguridad de la aplicación.</li>
+        <li>Personalizar tu experiencia de usuario e interfaz de navegación.</li>
+        <li>Responder a solicitudes de soporte, consultas técnicas o comentarios.</li>
+        <li>Realizar análisis estadísticos agregados e anónimos para implementar mejoras continuas.</li>
+      </ul>
+    </div>
+
+    <!-- Storage and Protection -->
+    <div class="policy-card">
+      <div class="section-header">
+        <div class="section-icon">🔒</div>
+        <h2 class="section-title">4. Seguridad y Almacenamiento</h2>
+      </div>
+      <p>
+        Implementamos medidas de seguridad técnicas, administrativas y físicas diseñadas para proteger la integridad de tus datos personales contra accesos no autorizados, alteraciones, divulgación o destrucción.
+      </p>
+      <p>
+        Toda la transmisión de información se realiza mediante protocolos de encriptación estándar de la industria (HTTPS / TLS).
+      </p>
+    </div>
+
+    <!-- User Rights -->
+    <div class="policy-card">
+      <div class="section-header">
+        <div class="section-icon">⚖️</div>
+        <h2 class="section-title">5. Derechos del Usuario</h2>
+      </div>
+      <p>Tienes derecho a ejercer en cualquier momento los siguientes derechos sobre tus datos personales:</p>
+      <ul>
+        <li><strong>Acceso y Rectificación:</strong> Solicitar una copia de la información que conservamos o pedir la corrección de datos inexactos.</li>
+        <li><strong>Eliminación (Derecho al Olvido):</strong> Solicitar la supresión total de tus datos de nuestros sistemas.</li>
+        <li><strong>Oposición:</strong> Oponerte al tratamiento de tus datos para fines específicos.</li>
+      </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="policy-card contact-card">
+      <div class="section-header" style="justify-content: center;">
+        <div class="section-icon">✉️</div>
+        <h2 class="section-title">6. Contacto y Consultas</h2>
+      </div>
+      <p>
+        Si tienes preguntas, dudas o deseas ejercer alguno de tus derechos relacionados con esta Política de Privacidad, ponte en contacto con nuestro equipo directivo:
+      </p>
+      <a href="mailto:manuel.moscoso.d@gmail.com" class="contact-email">
+        <span>📧</span> Contactar Administrador
+      </a>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Lircay Hub Pro. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

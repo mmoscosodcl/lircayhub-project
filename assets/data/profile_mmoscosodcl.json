@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "appTitle": "Portfolio",
+    "themeColor": "#135bec"
+  },
+  "hero": {
+    "title": "Hello, I build digital experiences",
+    "subtitle": "Passionate developer focusing on high-performance mobile and web applications with a Flutter-first mindset.",
+    "actionButtonText": "View My Work"
+  },
+  "personal": {
+    "name": "Alex Rivera",
+    "role": "Senior Engineer",
+    "location": "Based in San Francisco",
+    "avatarUrl": "https://i.pravatar.cc/300?img=11",
+    "bio": "I specialize in building cross-platform apps that feel native. With over 6 years of experience, I bridge the gap between complex backend architecture and beautiful, intuitive UI design.",
+    "resumeLink": "#"
+  },
+  "experience": [
+    {
+      "id": "1",
+      "title": "Lead Flutter Developer",
+      "company": "TechFlow Systems",
+      "period": "2021 - Present",
+      "description": "Leading a team of 5 mobile engineers in rebuilding the core fintech platform for high-scale users.",
+      "type": "work" 
+    },
+    {
+      "id": "2",
+      "title": "Mobile Engineer",
+      "company": "CreativeCode Studio",
+      "period": "2018 - 2021",
+      "description": "Developed 10+ mobile applications across healthcare and e-commerce industries.",
+      "type": "code"
+    },
+    {
+      "id": "3",
+      "title": "Junior Web Developer",
+      "company": "StartUpInc",
+      "period": "2016 - 2018",
+      "description": null,
+      "type": "terminal"
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "title": "FinTrack Mobile",
+      "description": "A comprehensive personal finance tracker with real-time stock insights and budget alerts.",
+      "imageUrl": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=500&auto=format&fit=crop&q=60",
+      "link": "#",
+      "tags": ["Flutter", "Firebase", "Stripe"]
+    },
+    {
+      "id": "p2",
+      "title": "Artic NFT Space",
+      "description": "Discovery platform for digital artists. Built with a focus on immersive gallery interactions.",
+      "imageUrl": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=500&auto=format&fit=crop&q=60",
+      "link": "#",
+      "tags": ["React Native", "Web3"]
+    }
+  ],
+  "contact": {
+    "headline": "Let's connect",
+    "subHeadline": "Open for collaboration and innovative projects.",
+    "socialLinks": [
+      { "platform": "email", "url": "mailto:alex@example.com", "icon": "mail" },
+      { "platform": "linkedin", "url": "https://linkedin.com/in/alex", "icon": "link" },
+      { "platform": "twitter", "url": "https://twitter.com/alex", "icon": "alternate_email" }
+    ]
+  }
+}
